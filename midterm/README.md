@@ -2,7 +2,7 @@
 
 1. Copy the uncluttered_data folder directly into your personal Google Drive, link: https://drive.google.com/drive/folders/1R6eReUvs1xZ4-DeDnIIPn8j9wYhdiuW9
 2. Download the Colab notebook and run in Colab cell by cell (you will need to restart runtime after 2nd cell), link: https://github.com/jhoeksem/cv2_project/blob/master/midterm/household_objects_uncluttered.ipynb
-3. If the github colab file doesn't work, the notebook is also contained here: https://colab.research.google.com/drive/1sriQ4nEAKr2BisvVsXcb4VXTbtimQ77l
+3. Alternately, if the github colab file doesn't work, the notebook is also contained here: https://colab.research.google.com/drive/1sriQ4nEAKr2BisvVsXcb4VXTbtimQ77l
 
 # Report Questions:
 
