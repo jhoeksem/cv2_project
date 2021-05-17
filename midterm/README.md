@@ -1,10 +1,7 @@
 # How to run code: 
 
 1. Copy the uncluttered_data folder directly into your personal Google Drive, link: https://drive.google.com/drive/folders/1R6eReUvs1xZ4-DeDnIIPn8j9wYhdiuW9
-2. Download the Colab notebook and run in Colab cell by cell (you will need to restart runtime after 2nd cell), link: 
-
-
-
+2. Download the Colab notebook and run in Colab cell by cell (you will need to restart runtime after 2nd cell), link: https://github.com/jhoeksem/cv2_project/blob/master/midterm/household_objects_uncluttered.ipynb
 
 # Report Questions:
 
