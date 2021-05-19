@@ -27,7 +27,11 @@ Pure object dataset was 100 images, 10 per object type. Each set of occluded dat
 
 ## c.
 
-Experiment 1: Average AP score was 
+Experiment 1: Average AP bounding box score was easily below 10, which is terrible. There were clearly some objects identified  
+Experiment 2: Average AP was zero for everything. I suspect something was misformatted; it is also possible that the model failed to recognize any object above the 50% confidence threshold.
+Experiemnt 3: 
+ 
+### Commentary: 
 
 ## d.
 
