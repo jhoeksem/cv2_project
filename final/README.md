@@ -18,8 +18,16 @@ Questions 1 and 2 are interesting because, if true, they would potentially simpl
 
 Question 3 is interesting because, if some cluttered data is required to train the model to expect many and potentially overlapping images, can we minimize this cluttered data requirement?
 
+Experiments performed:
+1) training on pure object data and testing on top_view_top_light occluded data
+2) training on pure object data and testing on top_view_ambient_light occluded data
+3) training on mix of object data and top_view_ambient_light occluded data; testing on top_view_top_light occluded data
+
+Pure object dataset was 100 images, 10 per object type. Each set of occluded data was 10 images. I restricted training epochs to 800. This trains quickly and I was getting INF/NAN gradient errors frequently above 800-900 training epochs on object data. 
+
 ## c.
 
+Experiment 1: Average AP score was 
 
 ## d.
 
