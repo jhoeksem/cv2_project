@@ -1,8 +1,27 @@
 # Report
-a.
-b.
-c.
-d.
+## a. 
+
+My reasoning for Colab/Detectron2/mask-rcnn remains relatively unchanged. 
+
+Colab provides easy access to GPUs, easy environment configuration, and easy data access with Google Drive.
+
+Detectron2/mask-rcnn has shown strong performance on diverse object sets and also occluded objects. The model is also resource-light as it can easily run on Colab. I also have learned that Detectron2 performs automatic data augmentation for training data, which is a plus.
+
+## b.
+
+I had already established a somewhat okay solution, so for this solution I wanted to push what could yeild much more interesting results. This was 3 specific experiments: 
+1) Can training on pure object data work? 
+2) Can training transfer across different lighting settings? 
+3) Can mixing in (minimal) occluded object data improve performance?
+
+Questions 1 and 2 are interesting because, if true, they would potentially simplify training data collection. Amazon has a vast amount of products, and photographing and labelling cluttered boxes is much less feasible than photographing and labelling single objects. 
+
+Question 3 is interesting because, if some cluttered data is required to train the model to expect many and potentially overlapping images, can we minimize this cluttered data requirement?
+
+## c.
+
+
+## d.
 
 
 
@@ -15,5 +34,5 @@ d.
 2. Download the Colab notebook and run in Colab cell by cell (you will need to restart runtime after 2nd cell), link: 
 3. Alternately, if the github colab file doesn't work, the notebook is also contained here: https://colab.research.google.com/drive/1P2YTDX2loffeIV7R9bhBUT6kB4ou2uX0?usp=sharing
 
-# Amazon Robotics 
+# Consent 
 To Adam Czajka, you have my consent to forward this work to Amazon Robotics. I don't think it's particularly high-quality work, but if you feel they would find it useful or interesting, please feel free to use it. 
