@@ -28,7 +28,9 @@ Pure object dataset was 100 images, 10 per object type. Each set of occluded dat
 ## c.
 
 Experiment 1: Average AP bounding box score was easily below 10, which is terrible. Most object identification included multiple objects in a single "object"; the model was clearly struggling at separating objects. The solution is likely not just more epochs. The architecture would likely need to change radically to have single object training data be effective for training occluded multiple-object scenes. Classification image results included in the Github.   
+
 Experiment 2: Average AP was zero for everything. I suspect something was misformatted; it is also possible that the model failed to recognize any object above the 50% confidence threshold.
+
 Experiemnt 3: This was a really interesting experiment! The average AP bounding box score hovered around 30, a significant improvement from experiment 1. What interests me the most is that the addition of labelled occluded training data was relatively small;adding 10 cluttered scenes to 100 objects. This small change shows the model much more easily distinguishing between objects, as well as getting a modest bump in class accuracy as well (without changing the software architecture!). Additionally, at the very least this shows that different lighting setups don't totally disqualify different sets of data, as this experiment's training data was ambient light and testing data was top light. 
 
 My justification for mAP remains the same.
